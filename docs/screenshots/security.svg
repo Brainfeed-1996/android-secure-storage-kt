@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect x="60" y="60" width="1080" height="600" rx="24" fill="#0F172A" opacity="0.65"/>
+  <text x="110" y="140" fill="#E2E8F0" font-size="36" font-family="Arial, sans-serif" font-weight="600">Security Info</text>
+  <text x="110" y="180" fill="#94A3B8" font-size="18" font-family="Arial, sans-serif">How encryption is handled under the hood.</text>
+
+  <rect x="110" y="220" width="980" height="160" rx="16" fill="#0B1220" stroke="#1F2937"/>
+  <text x="140" y="260" fill="#E2E8F0" font-size="20" font-family="Arial, sans-serif" font-weight="600">Security Overview</text>
+  <text x="140" y="295" fill="#94A3B8" font-size="15" font-family="Arial, sans-serif">MasterKey stored in Android Keystore with hardware backing when available.</text>
+  <text x="140" y="320" fill="#94A3B8" font-size="15" font-family="Arial, sans-serif">AES-256 SIV for keys and AES-256 GCM for values.</text>
+
+  <rect x="110" y="410" width="980" height="160" rx="16" fill="#0B1220" stroke="#1F2937"/>
+  <text x="140" y="450" fill="#E2E8F0" font-size="20" font-family="Arial, sans-serif" font-weight="600">Best Practices</text>
+  <text x="140" y="485" fill="#94A3B8" font-size="15" font-family="Arial, sans-serif">Rotate secrets on logout and avoid large blobs in preferences.</text>
+  <text x="140" y="510" fill="#94A3B8" font-size="15" font-family="Arial, sans-serif">Use separate storage files by domain.</text>
+</svg>

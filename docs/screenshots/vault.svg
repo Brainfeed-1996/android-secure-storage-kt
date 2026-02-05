@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect x="60" y="60" width="1080" height="600" rx="24" fill="#0F172A" opacity="0.65"/>
+  <text x="110" y="140" fill="#E2E8F0" font-size="36" font-family="Arial, sans-serif" font-weight="600">Secure Storage Vault</text>
+  <text x="110" y="180" fill="#94A3B8" font-size="18" font-family="Arial, sans-serif">Store secrets with encrypted key/value storage.</text>
+
+  <rect x="110" y="220" width="480" height="52" rx="10" fill="#111827" stroke="#1F2937"/>
+  <text x="130" y="252" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">Key</text>
+
+  <rect x="110" y="290" width="480" height="52" rx="10" fill="#111827" stroke="#1F2937"/>
+  <text x="130" y="322" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">Value</text>
+
+  <rect x="110" y="360" width="480" height="52" rx="10" fill="#111827" stroke="#1F2937"/>
+  <text x="130" y="392" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">Tag</text>
+
+  <rect x="110" y="430" width="230" height="44" rx="12" fill="#38BDF8"/>
+  <text x="180" y="458" fill="#0B1220" font-size="16" font-family="Arial, sans-serif" font-weight="600">Save</text>
+
+  <rect x="360" y="430" width="230" height="44" rx="12" fill="#38BDF8" opacity="0.7"/>
+  <text x="435" y="458" fill="#0B1220" font-size="16" font-family="Arial, sans-serif" font-weight="600">Load</text>
+
+  <rect x="650" y="220" width="430" height="240" rx="16" fill="#0B1220" stroke="#1F2937"/>
+  <text x="680" y="255" fill="#E2E8F0" font-size="20" font-family="Arial, sans-serif" font-weight="600">Activity Log</text>
+  <text x="680" y="290" fill="#94A3B8" font-size="14" font-family="Arial, sans-serif">12:04:12 · SAVE · auth · user_token</text>
+  <text x="680" y="315" fill="#94A3B8" font-size="14" font-family="Arial, sans-serif">12:05:03 · LOAD · auth · user_token</text>
+  <text x="680" y="340" fill="#94A3B8" font-size="14" font-family="Arial, sans-serif">12:05:49 · LIST · 3 keys</text>
+</svg>

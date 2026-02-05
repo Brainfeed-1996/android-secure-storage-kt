@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect x="240" y="180" width="720" height="360" rx="24" fill="#0B1220" stroke="#1F2937"/>
+  <text x="300" y="260" fill="#E2E8F0" font-size="30" font-family="Arial, sans-serif" font-weight="600">Welcome</text>
+  <text x="300" y="305" fill="#94A3B8" font-size="18" font-family="Arial, sans-serif">Store secrets using encrypted preferences.</text>
+  <rect x="300" y="360" width="220" height="44" rx="12" fill="#38BDF8"/>
+  <text x="370" y="388" fill="#0B1220" font-size="16" font-family="Arial, sans-serif" font-weight="600">Next</text>
+  <rect x="540" y="360" width="220" height="44" rx="12" fill="#1F2937"/>
+  <text x="620" y="388" fill="#E2E8F0" font-size="16" font-family="Arial, sans-serif" font-weight="600">Skip</text>
+</svg>
