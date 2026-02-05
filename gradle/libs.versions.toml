@@ -1,0 +1,41 @@
+[versions]
+agp = "7.3.1"
+kotlin = "1.7.20"
+compose-bom = "2022.10.00"
+compose-compiler = "1.3.2"
+core-ktx = "1.9.0"
+activity-compose = "1.6.1"
+lifecycle-runtime-ktx = "2.5.1"
+material3 = "1.0.0"
+material = "1.9.0"
+security-crypto = "1.1.0-alpha06"
+coroutines = "1.6.4"
+junit = "4.13.2"
+androidx-junit = "1.1.5"
+androidx-test-core = "1.5.0"
+espresso = "3.5.1"
+truth = "1.1.5"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security-crypto" }
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidx-test-core" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }

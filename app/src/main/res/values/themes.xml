@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.SecureStorageDemo" parent="Theme.MaterialComponents.Light.NoActionBar" />
+</resources>
